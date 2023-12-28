@@ -14,13 +14,23 @@
 const parent = React.createElement(
     'div', 
     {id: 'parent'}, 
-    React.createElement(
-        'div', 
-        {id: 'child'}, 
-        [
-            React.createElement('h1', {id: ''}, 'Hello, Its a Nested structure'), 
-            React.createElement('h2', {id: ''}, 'sibbling')
-        ])
+    [
+        React.createElement(
+            'div', 
+            {id: 'child'}, 
+            [
+                React.createElement('h1', {id: ''}, 'Hello, Its a Nested structure'), 
+                React.createElement('h2', {id: ''}, 'sibbling')
+            ]),
+
+            React.createElement(
+                'div', 
+                {id: 'child2'}, 
+                [
+                    React.createElement('h1', {id: ''}, 'Hello, Its a Nested structure'), 
+                    React.createElement('h2', {id: ''}, 'sibbling')
+                ])
+    ]
     )
 
 
