@@ -2,6 +2,11 @@
 <div id="parent">
     <div id="child">
         <h1>Hello, Its a Nested structure</h1>
+        <h2>sibbling</h2>
+    </div>
+    <div id="child2">
+        <h1>Hello, Its a Nested structure</h1>
+        <h2>sibbling</h2>
     </div>
 </div> 
 */
@@ -12,7 +17,10 @@ const parent = React.createElement(
     React.createElement(
         'div', 
         {id: 'child'}, 
-        React.createElement('h2', {id: ''}, 'Hello, Its a Nested structure'))
+        [
+            React.createElement('h1', {id: ''}, 'Hello, Its a Nested structure'), 
+            React.createElement('h2', {id: ''}, 'sibbling')
+        ])
     )
 
 
@@ -22,3 +30,6 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(parent);
 
 console.log(heading); // It is an Object. hence, React.createElement returns an Object
+
+
+// Note:- React.createElement returns an object  => html (Browser understands)
