@@ -15,3 +15,13 @@
     Framework:- easy to create & deploy application. It provides ready to use **tools, standard templates & policies for fast application process.**
     
 ---
+
+### Q3. What is CDN ? Why do we use it ?
+- Content Delivery Network.
+- it refers to a **geograpically distributed group of services** which work together **to provide fast delivery of internet content.**
+- CDN allows us for **Quick transger af assets** needed for loading Internet content including _HTML design Pages, JS files, Stylesheets, images & videos._
+- Both **React & React-DOM** are available for CDN. <br>
+React - CDN
+`<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>` <br>
+ReactDOM - CDN
+`<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>` <br>
