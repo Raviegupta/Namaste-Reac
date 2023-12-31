@@ -66,5 +66,5 @@ Modifying the package-lock.json file directly is generally not recommended for s
 - we can regenerate node_modules if we have package.json & package-lock.json by using the commands `npm install`
 
 ### what does caret(^) & tilde(~) do in package.json ?
-- <img src="/Assignments/images/caret-tilde.PNG" alt="caret-tilde">
+- <img src="Assignments/images/caret-tilde.PNG" alt="caret-tilde">
 - <img src="/Assignments/images/caret-tilde-2.PNG" alt="caret-tilde-2">
