@@ -71,3 +71,4 @@ Modifying the package-lock.json file directly is generally not recommended for s
 
 - caret (^) :- updates all patches, minor versions.
 - tilde (~) :- updates all patches(bug fix only).
+
