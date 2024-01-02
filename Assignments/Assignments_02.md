@@ -4,7 +4,13 @@
 - It is the default package manager for Node.js. (a popular runtime environment for running JavaScript on the server-side.)
 - npm is used to install, share, and manage dependencies (both local and global) for Node.js projects.
 - It allows developers to specify project dependencies in a package.json file and easily install or update them using simple commands.
-- Scripts: npm allows developers to define custom scripts in their package.json file, which can be executed using the npm run command.
+- Scripts: npm allows developers to define custom scripts in their package.json file, which can be executed using the `npm run` command.
+
+#### Why do we use npm in our app ?
+- **basically, it is used to manage our packages**.
+- **bcoz we want lot of packages in our app**.
+- *bcoz our react app can't be build by just injecting react into our web pages*.
+- **react app is a huge app, it doesnot run on only react, it requires lot of superpowers too, which we need & those superpowers comes from different packages. and those packages are present by using npm**.
 
 ### What is npx ?
 - `npx` is `a command-line tool` that comes with npm
@@ -72,3 +78,8 @@ Modifying the package-lock.json file directly is generally not recommended for s
 - caret (^) :- updates all patches, minor versions.
 - tilde (~) :- updates all patches(bug fix only).
 
+---
+
+### What is `Parcel/Webpack` ? Why do we need it?
+- It's a `Bundler`. It is a package. ( What is a package :- package is like a module of javascript file. )
+Note:- when we have to use package in our code. then we have to use package manager like npm or yarn.
