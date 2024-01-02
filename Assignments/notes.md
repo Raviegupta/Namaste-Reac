@@ -1,4 +1,4 @@
-# Notes - Notes for the things which i should know, but it is lesser important for me with regard to IQ (Date:- 02/Jan/24)
+# Notes for the things which i should know, but it is lesser important for me with regard to IQ (Date:- 02/Jan/24)
 
 #### Q. is React a Global Object ?
 Yes, React is a global object
@@ -115,7 +115,7 @@ Q. What is BOM ?
 `npm init -y ` :- will skip up lot of option.
 `npm init` :- this will ask us a lot of question & will give us a **package.json** file.
 
-### How to install any package in our app ?
+### How to install any package (let say parcel) in our app ?
 - Before installing any package, it is necessary to have a package manager.
 - `npm install` [package name] 
 - `npm i` [package name]
@@ -143,3 +143,12 @@ run command
 npx parcel [entry point]
 ```
 ex:- `npx parcel index.html`
+his will provide local host like :-  Server running at http://localhost:1234  <br>
+earlier we used to inject cdn for React & ReactDOM. but here we already have these packages in our node_modules which we just installed by commands npm install react  & npm install react-dom. hence, we need to import these  to use react & react-dom.
+
+### How to Import React & ReactDOM to our App ?
+write these commands in js file. (now we don't need cdn links)
+```
+import React from "react";
+import ReactDOM from "react-dom/client"
+```
