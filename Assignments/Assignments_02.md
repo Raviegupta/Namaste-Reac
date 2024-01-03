@@ -83,3 +83,11 @@ Modifying the package-lock.json file directly is generally not recommended for s
 ### What is `Parcel/Webpack` ? Why do we need it?
 - It's a `Bundler`. It is a package. ( What is a package :- package is like a module of javascript file. )
 Note:- when we have to use package in our code. then we have to use package manager like npm or yarn.
+
+---
+
+### What is HMR (Hot Module Replacement) ?
+- HMR is one of the most useful features offered by webpack or parcel (bundlers). It allows all kinds of modules to be updated at runtime without the need for a full refresh.
+- How HMR does this => 
+    - with the help of something known as `File Watcher Algorithm` and Parcel is doing this for us.
+    - `File Watcher Algorithm` is written in C++ therefore HMR is very fast.

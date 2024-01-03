@@ -152,3 +152,11 @@ write these commands in js file. (now we don't need cdn links)
 import React from "react";
 import ReactDOM from "react-dom/client"
 ```
+
+Note:- Normal JavaScript Browser doesn't understand `import` or `export`. So, we need to tell browser this is not a normal JS file, this is a `module`. we have to specify this by adding attribute `type = 'module'` in script tag. ex:-
+
+```
+<script type="module" src="App.js"></script>
+```
+
+Now if we do any changes in css or js it will be automatically reflected. This is known as `LIVE SERVER powered by PARCEL`. This Functionality is known as **HMR (HOT Module Replacement)**
