@@ -143,8 +143,10 @@ run command
 npx parcel [entry point]
 ```
 ex:- `npx parcel index.html`
-his will provide local host like :-  Server running at http://localhost:1234  <br>
-earlier we used to inject cdn for React & ReactDOM. but here we already have these packages in our node_modules which we just installed by commands npm install react  & npm install react-dom. hence, we need to import these  to use react & react-dom.
+This will provide local host like :-  Server running at http://localhost:1234  <br>
+earlier we used to inject cdn for React & ReactDOM. but here we already have these packages in our node_modules which we just installed by commands `npm install react`  & `npm install react-dom`. hence, we need to import these  to use react & react-dom. <br>
+**Note:- npx parcel index.html => it just creates a development build for us & it hosts on our server.**
+
 
 ### How to Import React & ReactDOM to our App ?
 write these commands in js file. (now we don't need cdn links)
@@ -160,3 +162,60 @@ Note:- Normal JavaScript Browser doesn't understand `import` or `export`. So, we
 ```
 
 Now if we do any changes in css or js it will be automatically reflected. This is known as `LIVE SERVER powered by PARCEL`. This Functionality is known as **HMR (HOT Module Replacement)**
+
+
+### What are `.parcel-cache` and `dist` folders ?
+- `.parcel-cache` :- parcel needs `some space` to do it's activity & extra stuffs in the form of .parcel-cache
+- `dit` folder :- keeps the file minified for us.
+
+### How do i tell parcel make a production build ?
+using `build` command like this :- `npx parcel build index.html`
+- it creates a lot of things.
+- it minifies our file.
+- parcel build all these files in `dist` folder. dist folder contain
+    - .css
+    - .css.map
+    - .js
+    - .js.map
+    - .html
+- .map is like a helper file.
+
+#### What will happen if we delete `dis` folder ?
+* `npx parcel build index.html` will breakdown.
+* When we run this command => `npx parcel build index.html` => it gives an **error**
+- ` "main": "App.js" ` => remove this from `package.json`
+* Now `npx parcel build index.html` will run successfully. (aur agar `dis` folder delete bi kar diya h to ye automatically bna lega.)
+
+### How to add HTTPS on our server ?
+- write npx parcel entry point command with `--https` flag
+    `npx parcel index.html --https`
+
+### Should we keep `.parcel-cache` and `dist` folders in .gitignore ?
+* **yes** we should **put it in .gitignore**
+* Golden Statement :-  anything which is auto generated on server, we should keep it in .gitignore
+
+### How React is fast ? Is it only due to VirtualDOM ?
+* No. 
+* React is fast Itself.
+* It need so many things to make it fast.
+* React can't make app performant alone, it needs parcel & parcel uses dependencies.
+  * If React is Modi Ji then Parcel is Amit Shah 
+  * and different packages in node_modules are like different ministers. some are very important and some are less important.
+  * In this way sab ek dusre pe dependent hote h.
+    * this is known as **Transitive Dependency**
+
+### What do you mean by Transitive dependency ?
+When we are building a production ready big app which uses minification, bundling, code cleaning, compression, image optimisation, consistent hashing algorithm, Hot Module Replacement and which uses lot of things then we can't do these alone we need lots of dependencies on it. and these dependencies also depends on something, So these kind pf dependencies are known as `Transisitve Dependencies`.
+
+<img src="https://i.ytimg.com/vi/hIszue6LsBo/maxresdefault.jpg" alt="transisitive dependency" width="500px">
+
+### What is Babel ?
+- It's a `JavaScript Compiler` that allows developers to write code using the latest ECMAScript standards (such as ES6, ES7, ES8) and then transform that code into a backward-compatible version of JavaScript that can be run by older browsers or environments. This is called `Transpilation`
+* used for Transpilation.
+* It creates Pollyfill
+* In our cases, It's a dependency for Parcel.
+
+some key features and use cases of Babel:
+- Transpilation:
+- Language Features: supports a wide range of JavaScript language features, including arrow functions, classes, template literals, destructuring, async/await, and more.
+- Polyfilling: used to polyfill missing features in older browsers by including additional code that provides missing functionality not natively supported by the browser.
