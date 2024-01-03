@@ -119,15 +119,16 @@ Note:- when we have to use package in our code. then we have to use package mana
 Main Functionality / SuperPowers of Parcel
 1. HMR (Hot Module Replacement)
 1. File Watcher Algorithm (C++)
+1. Local Server
 1. Bundling
-1. Minify
+1. Minify our code (Minification) 
 1. Clean Our Code
 1. Development & Production Build
 1. SuperFast `Build Algorithm`
 1. Image Optimisation
 1. Caching while development
 1. Compresssion (rename bhi karta h => name ko chota karta h)
-1. take care of our older version 
+1. Differential Bundling (take care of our older version)
     * *compatible with older version of browser*
     * it add polyfills
 1. Parcel gives us facility to build our own **HTTP on dev**.
@@ -135,6 +136,11 @@ Main Functionality / SuperPowers of Parcel
 1. Consistent Hashing Algorithm.
 1. Zero Configuration.
 1. Tree Shaking :- removing unwanted code
+1. Code Spliiting
+1. Diagnostic (Good Error Handling)
+1. Facility to host on `https`
+1. Transpilation
+1. Lazy mode (--lazy flag ka use karke => npx parcel index.html `--lazy`)
 
 ---
 
