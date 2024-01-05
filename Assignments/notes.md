@@ -216,8 +216,8 @@ When we are building a production ready big app which uses minification, bundlin
 ---
 ### Q. What is Babel ?
 - It's a `JavaScript Compiler` that allows developers to write code using the latest ECMAScript standards (such as ES6, ES7, ES8) and then transform that code into a backward-compatible version of JavaScript that can be run by older browsers or environments. This is called `Transpilation`
-* used for Transpilation.
-* It creates Pollyfill
+* used for `Transpilation`.
+* It creates `Pollyfill`
 * In our cases, It's a dependency for Parcel.
 
 some key features and use cases of Babel:
@@ -227,4 +227,57 @@ some key features and use cases of Babel:
 ---
 ---
 
-## 🌺🌺 Date:- 04/Jan/24 (the day of Guru Brahaspati)
+## 🌺🌺 Date:- 05/Jan/24 (Friday)
+
+### Concept behind JSX.
+earlier we used to write like this
+```
+import { createElement } from "react";
+import ReactDOM from "react-dom/client";
+
+const heading = createElement("h1", {key: "h1", }, "Ravie Enterprises");
+
+const ul = createElement("ul", {key: "ul", }, [
+  createElement("li", {key: "first",}, "About us"), 
+  createElement("li", {key: "second",}, "Products"), 
+  createElement("li", {key: "third",}, "Offers") 
+]);
+
+const container = createElement("div", {}, [heading, ul])
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(container);
+```
+
+**After introducing of JSX** we are writing like this
+```
+// using single line
+const heading = <h1 id="title" key="h1">Ravie Enterprises by JSX</h1>
+
+// if using multiple line then we have to put ()
+const heading = (
+  <h1 id="title" key="h1">
+    Ravie Enterprises by JSX
+  </h1>
+  );
+```
+
+### Q. Is JSX is html inside JavaScript ?
+- No, JSX is not html inside JavaScript.
+- This is a HTML like Syntax (syntax extension to JavaScript). but it is not HTML inside JavaScript. This is a fancy way of writing HTML inside JavaScript.
+- 
+
+### Advantages of JSX.
+- readability
+- developer experience
+- syntatical sugar
+- less code
+- good to maintain
+- no repetition
+- code for humans
+
+Note:- `syntactic sugar` is syntax within a programming language that is designed to make things `easier to read or to express`. It makes the language "sweeter" for human use: things can be expressed more clearly, more concisely
+
+---
+
+
