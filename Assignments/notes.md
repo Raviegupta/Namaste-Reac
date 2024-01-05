@@ -1,5 +1,5 @@
 ## Notes for the things which i should know, but it is lesser important for me with regard to IQ 
-## 🌺🌺 Date:- 02/Jan/24 (Tuesday)
+## 🌺🌺 Date:- 02/Jan/24 (Tuesday),   Episode #01
 
 #### Q. is React a Global Object ?
 Yes, React is a global object
@@ -112,11 +112,14 @@ Q. What is BOM ?
 
 ---
 ---
+## 🌺🌺 Date:- 03/Jan/24 (Wednesday),   Episode #02
 
-### Process of Installing Any Package Manager say npm in our app.
+### Process of Installing Any `Package Manager` say npm in our app.
 `npm init -y` :- will skip up lot of option. <br>
 `npm init` :- this will ask us a lot of question & will give us a **package.json** file.
+
 ---
+
 ### How to install any package (let say parcel) in our app ?
 - Before installing any package, it is necessary to have a package manager.
 - `npm install` [package name] 
@@ -126,7 +129,9 @@ Q. What is BOM ?
     - `-D` flag :- Dev dependency [-D means we are `installing parcel with Dev dependency`]
 
 - `npm install` `--save-dev` [package name] :- (it does same thing as npm install -D )
+
 ---
+
 ### How to install React & ReactDOM in our app ?
 - since, using `cdn & React.createElememt is not the efficient way to use react`. This is bcoz when react version is updated then we have to change the cdn manually.
 - So, we will install the react by :- 
@@ -138,7 +143,9 @@ npm install react
 npm install react-dom
 ```
 #### here -D flag are not required bcoz i want react & reactDOM in Global not in just development environment.
+
 ---
+
 ### How we will ignite (run) our App ?
 run command 
 ```
@@ -168,7 +175,7 @@ Now if we do any changes in css or js it will be automatically reflected. This i
 ---
 ---
 
-## 🌺🌺 Date:- 03/Jan/24 (Wednesday)
+## 🌺🌺 Date:- 03/Jan/24 (Wednesday)    Episode #02 Part: 2
 ### Q. What are `.parcel-cache` and `dist` folders ?
 - `.parcel-cache` :- parcel needs `some space` to do it's activity & extra stuffs in the form of .parcel-cache
 - `dit` folder :- keeps the file minified for us.
@@ -214,6 +221,7 @@ When we are building a production ready big app which uses minification, bundlin
 
 <img src="https://i.ytimg.com/vi/hIszue6LsBo/maxresdefault.jpg" alt="transisitive dependency" width="500px"> <br>
 ---
+
 ### Q. What is Babel ?
 - It's a `JavaScript Compiler` that allows developers to write code using the latest ECMAScript standards (such as ES6, ES7, ES8) and then transform that code into a backward-compatible version of JavaScript that can be run by older browsers or environments. This is called `Transpilation`
 * used for `Transpilation`.
@@ -227,9 +235,8 @@ some key features and use cases of Babel:
 ---
 ---
 
-## 🌺🌺 Date:- 05/Jan/24 (Friday)
-
-### Concept behind JSX.
+## 🌺🌺 Date:- 05/Jan/24 (Friday)   Episode #03 
+### Concept behind the Scenes of JSX.
 earlier we used to write like this
 ```
 import { createElement } from "react";
@@ -267,17 +274,46 @@ const heading = (
 - This is a HTML like Syntax (syntax extension to JavaScript). but it is not HTML inside JavaScript. This is a fancy way of writing HTML inside JavaScript.
 - 
 
-### Advantages of JSX.
-- readability
-- developer experience
-- syntatical sugar
-- less code
-- good to maintain
-- no repetition
-- code for humans
+---
 
-Note:- `syntactic sugar` is syntax within a programming language that is designed to make things `easier to read or to express`. It makes the language "sweeter" for human use: things can be expressed more clearly, more concisely
+### Story behind command `npm run start` ?
+Instead of writing `npx parcel [entry point]` (i.e, `npx parcel index.html`)  <br>
+we can automate it by adding the `"start"` key inside the `"scripts"` of `package.json`
+  ```
+  "scripts": {
+    "start": "parcel index.html",
+  }
+  ```
+then we can run the command
+  * `npm run start`
+  *  shortcut is `npm start`
+
+Similarly, we can add `"build"` inside the `scripts` of `package.json`. <br>
+```
+"scripts": {
+  "build": "parcel build index.html",
+}
+```
+now, we can run 
+- `npm run build`
 
 ---
 
+### How to remove console.log in js file from the dist folder?
+- dist/index.7826abd7.js => `code minified` => it doesn't remove console.log automatically(we have to configure our project to remove console.log, we need a plugin)
+  - `babel-plugin-transform-remove-console`
+  - ref:- https://babeljs.io/docs/babel-plugin-transform-remove-console/
+  - https://www.npmjs.com/package/babel-plugin-transform-remove-console/
+
+---
+
+### How to install a plugin & configure it ?
+Installing of any Plugin is similar to installing a package. <br>
+command :- `npm install [package name or plugin name]`  <br>
+ex:- 
+- npm install `babel-plugin-transform-remove-console --save-dev`   or   `-D` <br>
+- Now we to configure using `babel.rc` configuration file.  <br>
+  now `npm run build` command will remove console.log
+
+---
 

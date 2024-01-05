@@ -1,19 +1,19 @@
 # Episode 03 - Laying the Foundation (Date:- 04/Jan/2023)
 ## Topics
-- JSX
-- React.createElement vs JSX
-- Benefits of JSX
-- Behind the Scenes of JSX
-- Babel & parcel role in JSX
+- JSX                           ✅ (assignment)
+- Benefits of JSX               ✅ (assignment)
+- Behind the Scenes of JSX      ✅ (notes)   
+- Babel & parcel role in JSX    ✅ (notes)  
+- React.createElement vs JSX     
 - Components
 - Functional Components
     - Composing Components
 
 
 ## Assignments
-- What is JSX?
-- Superpowers of JSX.
-- Role of type attribute in script tag? What options can I use there?
+- What is JSX?                   ✅ (assignment)
+- Superpowers of JSX.            ✅ (assignment)
+- Role of `type` attribute in script tag? What options can I use there?
 - {TitleComponent} vs `{<TitleComponent/>}` vs `{<TitleComponent></TitleComponent>}`
 
 ## Coding Assignment
@@ -23,7 +23,7 @@
 ---
 ---
 Assignments
-### Q1. What is JSX? Does Browsers understands JSX? How does JSX executes code in the browser ?
+### Q1. What is JSX? Does Browsers understands JSX? How does JSX executes code in the browser? Benefits of JSX.
 JSX (JavaScript XML) is a `syntax extension for JavaScript`.
 It allows developers to write `HTML-like syntax code` within JavaScript.
 
@@ -50,6 +50,34 @@ const heading = (
 (Behind the scenes, Babel compiler converts JSX into React.createElement())
 - babel comes along with bundler parcel / webpack. (babel comes as a dependency along with parcel.)
 
+### Advantages of JSX.
+- readability
+- developer experience
+- syntatical sugar
+- less code
+- good to maintain
+- no repetition
+- code for humans
+
+Note:- `syntactic sugar` is syntax within a programming language that is designed to make things `easier to read or to express`. It makes the language "sweeter" for human use: things can be expressed more clearly, more concisely
+
 ---
 
 ### Q2. What is Pollyfill?
+A polyfill is a piece of code (usually JavaScript) that provides modern functionality on older browsers, ensuring a more consistent experience for users across different browser versions.
+- suppose our browser don't understand promises or ES6. so that promises or ES6 code is converted into some other piece of code (undestandable by older browsers) that is a pollyfill.
+- `Babel` does this role automatically to convert newer code to older code.
+
+some key points about polyfills:
+1. Browser Compatibility:
+2. Feature Detection: to check if a certain feature is supported by the user's browser. Feature detection allows developers to conditionally load the polyfill only when necessary, `avoiding unnecessary code execution in modern browsers that already support the feature`.  
+
+---
+
+### Q3. What is a Babel?
+ans in notes
+
+---
+
+
+

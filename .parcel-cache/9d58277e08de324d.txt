@@ -1,9 +1,9 @@
-5972
+5980
 95C:\Users\hp\Desktop\Namaste-React\node_modules\react\cjs\react-jsx-dev-runtime.profiling.min.js133486852941280554 0
 116C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\Block.js133486852080525091 0
 78C:\Users\hp\Desktop\Namaste-React\node_modules\source-map-js\lib\quick-sort.js133486852075923966 0
 103C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\package-manager\test\fixtures\empty\package.json133486852103399799 0
-38C:\Users\hp\Desktop\Namaste-React\dist133487610349861771 1
+38C:\Users\hp\Desktop\Namaste-React\dist133489185777644048 1
 85C:\Users\hp\Desktop\Namaste-React\node_modules\css-tree\cjs\syntax\scope\selector.cjs133486852138413323 0
 57C:\Users\hp\Desktop\Namaste-React\node_modules\is-extglob133486852066846915 1
 83C:\Users\hp\Desktop\Namaste-React\node_modules\csso\lib\replace\atrule\keyframes.js133486852130773743 0
@@ -20,10 +20,10 @@
 96C:\Users\hp\Desktop\Namaste-React\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\Doxyfile133486852078388850 0
 67C:\Users\hp\Desktop\Namaste-React\node_modules\picocolors\README.md133486852071569691 0
 75C:\Users\hp\Desktop\Namaste-React\node_modules\electron-to-chromium\LICENSE133486852061750172 0
-46C:\Users\hp\Desktop\Namaste-React\package.json133487610969024512 0
+46C:\Users\hp\Desktop\Namaste-React\package.json133489185683039394 0
 97C:\Users\hp\Desktop\Namaste-React\node_modules\caniuse-lite\data\features\font-variant-numeric.js133486852176385353 0
 89C:\Users\hp\Desktop\Namaste-React\node_modules\htmlnano\docs\versioned_docs\version-2.0.0133486852118344027 1
-45C:\Users\hp\Desktop\Namaste-React\Assignments133486398457692840 1
+45C:\Users\hp\Desktop\Namaste-React\Assignments133488601136960400 1
 132C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\pseudo-selectors\subselects.js133486852082373152 0
 73C:\Users\hp\Desktop\Namaste-React\node_modules\node-addon-api\except.gypi133486852066886811 0
 80C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\graph\lib\ContentGraph.js133486852080715039 0
@@ -76,6 +76,21 @@
 78C:\Users\hp\Desktop\Namaste-React\node_modules\htmlnano\docs\docs\020-usage.md133486852111842758 0
 111C:\Users\hp\Desktop\Namaste-React\node_modules\css-select\node_modules\dom-serializer\lib\esm\foreignNames.d.ts133486852155813373 0
 94C:\Users\hp\Desktop\Namaste-React\node_modules\@swc\helpers\cjs\_class_private_method_init.cjs133486852098470207 0
+84C:\Users\hp\Desktop\Namaste-React\node_modules\csso\node_modules\css-tree\lib\walker133486852360180112 1
+87C:\Users\hp\Desktop\Namaste-React\node_modules\caniuse-lite\data\features\css-shapes.js133486852162073117 0
+71C:\Users\hp\Desktop\Namaste-React\node_modules\semver\functions\diff.js133486852081700559 0
+51C:\Users\hp\Desktop\Namaste-React\node_modules\lmdb133486852145748948 1
+108C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\dist\csso.min.js133486852098387066 0
+55C:\Users\hp\Desktop\Namaste-React\node_modules\domutils133486852089476532 1
+65C:\Users\hp\Desktop\Namaste-React\node_modules\tslib\tslib.es6.js133486852070229045 0
+92C:\Users\hp\Desktop\Namaste-React\node_modules\caniuse-lite\data\features\intrinsic-width.js133486852181180899 0
+95C:\Users\hp\Desktop\Namaste-React\node_modules\@swc\helpers\src\_apply_decorated_descriptor.mjs133486852175596403 0
+119C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\Function.js133486852109899823 0
+83C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\package-manager\src\types.js133486852098769547 0
+42C:\Users\hp\Desktop\Namaste-React\temp.jsx133488919392712712 0
+92C:\Users\hp\Desktop\Namaste-React\node_modules\@swc\helpers\cjs\_class_private_field_set.cjs133486852096637780 0
+81C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\workers\test\workerfarm.js133486852109403894 0
+63C:\Users\hp\Desktop\Namaste-React\node_modules\tslib\tslib.d.ts133486852081900781 0
 72C:\Users\hp\Desktop\Namaste-React\node_modules\htmlnano\lib\htmlnano.mjs133486852132229836 0
 90C:\Users\hp\Desktop\Namaste-React\node_modules\caniuse-lite\data\features\text-emphasis.js133486852193881626 0
 88C:\Users\hp\Desktop\Namaste-React\node_modules\css-tree\lib\syntax\node\AtrulePrelude.js133486852144141388 0
@@ -294,10 +309,6 @@
 59C:\Users\hp\Desktop\Namaste-React\node_modules\lmdb\read.js133486852143072003 0
 62C:\Users\hp\Desktop\Namaste-React\node_modules\.bin\parcel.cmd133486852529929901 0
 55C:\Users\hp\Desktop\Namaste-React\node_modules\css-what133486852091166833 1
-56C:\Users\hp\Desktop\Namaste-React\node_modules\is-number133486852066745515 1
-73C:\Users\hp\Desktop\Namaste-React\node_modules\css-select\lib\sort.js.map133486852112355650 0
-56C:\Users\hp\Desktop\Namaste-React\node_modules\lru-cache133486852066807023 1
-75C:\Users\hp\Desktop\Namaste-React\node_modules\type-fest\source\except.d.ts133486852085608475 0
 51C:\Users\hp\Desktop\Namaste-React\node_modules\csso133486852135989789 1
 68C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\rust\index.js133486852069005413 0
 61C:\Users\hp\Desktop\Namaste-React\node_modules\domelementtype133486852077690641 1
@@ -329,12 +340,6 @@
 57C:\Users\hp\Desktop\Namaste-React\node_modules\domhandler133486852076137785 1
 70C:\Users\hp\Desktop\Namaste-React\node_modules\mdn-data\css\types.json133486852096384462 0
 62C:\Users\hp\Desktop\Namaste-React\node_modules\process\LICENSE133486854380159713 0
-84C:\Users\hp\Desktop\Namaste-React\node_modules\csso\node_modules\css-tree\lib\walker133486852360180112 1
-87C:\Users\hp\Desktop\Namaste-React\node_modules\caniuse-lite\data\features\css-shapes.js133486852162073117 0
-71C:\Users\hp\Desktop\Namaste-React\node_modules\semver\functions\diff.js133486852081700559 0
-51C:\Users\hp\Desktop\Namaste-React\node_modules\lmdb133486852145748948 1
-108C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\dist\csso.min.js133486852098387066 0
-55C:\Users\hp\Desktop\Namaste-React\node_modules\domutils133486852089476532 1
 68C:\Users\hp\Desktop\Namaste-React\node_modules\node-releases\LICENSE133486852061710292 0
 77C:\Users\hp\Desktop\Namaste-React\node_modules\lmdb\dependencies\lmdb-data-v1133486852061800047 1
 67C:\Users\hp\Desktop\Namaste-React\node_modules\resolve-from\license133486852065322884 0
@@ -389,6 +394,10 @@
 78C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\runtime-js\package.json133486852107653633 0
 91C:\Users\hp\Desktop\Namaste-React\node_modules\caniuse-lite\data\features\scrollintoview.js133486852192349582 0
 54C:\Users\hp\Desktop\Namaste-React\node_modules\is-json133486852074527009 1
+56C:\Users\hp\Desktop\Namaste-React\node_modules\is-number133486852066745515 1
+73C:\Users\hp\Desktop\Namaste-React\node_modules\css-select\lib\sort.js.map133486852112355650 0
+56C:\Users\hp\Desktop\Namaste-React\node_modules\lru-cache133486852066807023 1
+75C:\Users\hp\Desktop\Namaste-React\node_modules\type-fest\source\except.d.ts133486852085608475 0
 68C:\Users\hp\Desktop\Namaste-React\node_modules\mdn-data\package.json133486852085919728 0
 100C:\Users\hp\Desktop\Namaste-React\node_modules\csso\node_modules\css-tree\lib\syntax\node\Comment.js133486852354984346 0
 67C:\Users\hp\Desktop\Namaste-React\node_modules\yallist\package.json133486852068077535 0
@@ -948,12 +957,6 @@
 65C:\Users\hp\Desktop\Namaste-React\node_modules\tslib\package.json133486852076310579 0
 73C:\Users\hp\Desktop\Namaste-React\node_modules\picomatch\lib\picomatch.js133486852073138401 0
 83C:\Users\hp\Desktop\Namaste-React\node_modules\css-select\node_modules\entities\lib133486852355690630 1
-65C:\Users\hp\Desktop\Namaste-React\node_modules\tslib\tslib.es6.js133486852070229045 0
-92C:\Users\hp\Desktop\Namaste-React\node_modules\caniuse-lite\data\features\intrinsic-width.js133486852181180899 0
-95C:\Users\hp\Desktop\Namaste-React\node_modules\@swc\helpers\src\_apply_decorated_descriptor.mjs133486852175596403 0
-92C:\Users\hp\Desktop\Namaste-React\node_modules\@swc\helpers\cjs\_class_private_field_set.cjs133486852096637780 0
-81C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\workers\test\workerfarm.js133486852109403894 0
-63C:\Users\hp\Desktop\Namaste-React\node_modules\tslib\tslib.d.ts133486852081900781 0
 100C:\Users\hp\Desktop\Namaste-React\node_modules\@swc\helpers\cjs\_class_static_private_method_get.cjs133486852102100446 0
 74C:\Users\hp\Desktop\Namaste-React\node_modules\to-regex-range\package.json133486852061352483 0
 67C:\Users\hp\Desktop\Namaste-React\node_modules\tslib\tslib.es6.html133486852061720250 0
@@ -1112,7 +1115,7 @@
 64C:\Users\hp\Desktop\Namaste-React\node_modules\lmdb\package.json133486852143931937 0
 89C:\Users\hp\Desktop\Namaste-React\node_modules\svgo\plugins\removeAttributesBySelector.js133486852112857998 0
 71C:\Users\hp\Desktop\Namaste-React\node_modules\node-addon-api\nothing.c133486852060784763 0
-61C:\Users\hp\Desktop\Namaste-React\dist\index.9e4c6fd2.css.map133487610347876147 0
+61C:\Users\hp\Desktop\Namaste-React\dist\index.9e4c6fd2.css.map133489177195611531 0
 62C:\Users\hp\Desktop\Namaste-React\node_modules\is-glob\LICENSE133486852061740201 0
 103C:\Users\hp\Desktop\Namaste-React\node_modules\react-dom\umd\react-dom-server.browser.production.min.js133486853163611803 0
 74C:\Users\hp\Desktop\Namaste-React\node_modules\svgo\plugins\removeXMLNS.js133486852132818273 0
@@ -1141,7 +1144,6 @@
 84C:\Users\hp\Desktop\Namaste-React\node_modules\svgo\lib\svgo\css-select-adapter.d.ts133486852096637780 0
 93C:\Users\hp\Desktop\Namaste-React\node_modules\caniuse-lite\data\features\css-color-adjust.js133486852144677910 0
 78C:\Users\hp\Desktop\Namaste-React\node_modules\svgo\plugins\removeEmptyText.js133486852118324091 0
-79C:\Users\hp\Desktop\Namaste-React\node_modules\css-tree\lib\convertor\create.js133486852146882734 0
 74C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\workers\lib\threads133486852103998625 1
 91C:\Users\hp\Desktop\Namaste-React\node_modules\caniuse-lite\data\features\css-gencontent.js133486852148957124 0
 80C:\Users\hp\Desktop\Namaste-React\node_modules\svgo\plugins\removeHiddenElems.js133486852119137970 0
@@ -1227,8 +1229,8 @@
 84C:\Users\hp\Desktop\Namaste-React\node_modules\@swc\helpers\_\_ts_param\package.json133486852174908034 0
 69C:\Users\hp\Desktop\Namaste-React\node_modules\svgo\lib\svgo\tools.js133486852098582613 0
 98C:\Users\hp\Desktop\Namaste-React\node_modules\caniuse-lite\data\features\extended-system-fonts.js133486852174399334 0
-76C:\Users\hp\Desktop\Namaste-React\node_modules\ordered-binary\dist\index.cjs133486852063901212 0
 72C:\Users\hp\Desktop\Namaste-React\node_modules\lightningcss\package.json133486852081620766 0
+76C:\Users\hp\Desktop\Namaste-React\node_modules\ordered-binary\dist\index.cjs133486852063901212 0
 81C:\Users\hp\Desktop\Namaste-React\node_modules\htmlnano\lib\modules\minifySvg.cjs133486852091624202 0
 97C:\Users\hp\Desktop\Namaste-React\node_modules\@swc\helpers\esm\_unsupported_iterable_to_array.js133486852149580313 0
 72C:\Users\hp\Desktop\Namaste-React\node_modules\svgo\dist\svgo.browser.js133486852088247869 0
@@ -3310,6 +3312,7 @@
 74C:\Users\hp\Desktop\Namaste-React\node_modules\css-tree\lib\lexer\units.js133486852169948883 0
 89C:\Users\hp\Desktop\Namaste-React\node_modules\css-tree\lib\definition-syntax\generate.js133486852150424166 0
 85C:\Users\hp\Desktop\Namaste-React\node_modules\css-tree\lib\definition-syntax\walk.js133486852170845947 0
+79C:\Users\hp\Desktop\Namaste-React\node_modules\css-tree\lib\convertor\create.js133486852146882734 0
 67C:\Users\hp\Desktop\Namaste-React\node_modules\@swc\core\Visitor.js133486852077400046 0
 104C:\Users\hp\Desktop\Namaste-React\node_modules\@msgpackr-extract\msgpackr-extract-win32-x64\package.json133486852062742058 0
 75C:\Users\hp\Desktop\Namaste-React\node_modules\css-tree\dist\csstree.esm.js133486852148798139 0
@@ -3552,7 +3555,7 @@
 121C:\Users\hp\Desktop\Namaste-React\node_modules\css-select\node_modules\entities\lib\esm\generated\decode-data-html.js.map133486852160806119 0
 95C:\Users\hp\Desktop\Namaste-React\node_modules\caniuse-lite\data\features\screen-orientation.js133486852192254164 0
 118C:\Users\hp\Desktop\Namaste-React\node_modules\css-select\node_modules\entities\lib\esm\generated\decode-data-xml.d.ts133486852355562808 0
-54C:\Users\hp\Desktop\Namaste-React\Assignments\notes.md133487365381020677 0
+54C:\Users\hp\Desktop\Namaste-React\Assignments\notes.md133489183358200633 0
 111C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\minifyStyles.js133486852101176162 0
 122C:\Users\hp\Desktop\Namaste-React\node_modules\css-select\node_modules\entities\lib\esm\generated\decode-data-xml.d.ts.map133486852161499931 0
 116C:\Users\hp\Desktop\Namaste-React\node_modules\css-select\node_modules\entities\lib\esm\generated\decode-data-xml.js133486852155813373 0
@@ -3580,10 +3583,10 @@
 69C:\Users\hp\Desktop\Namaste-React\node_modules\caniuse-lite\README.md133486852196734204 0
 95C:\Users\hp\Desktop\Namaste-React\node_modules\css-select\node_modules\domutils\lib\legacy.d.ts133486852166566454 0
 97C:\Users\hp\Desktop\Namaste-React\node_modules\css-select\node_modules\domutils\lib\legacy.js.map133486852161672810 0
-56C:\Users\hp\Desktop\Namaste-React\dist\index.7826abd7.js133487610349702252 0
+56C:\Users\hp\Desktop\Namaste-React\dist\index.7826abd7.js133489177197021533 0
 101C:\Users\hp\Desktop\Namaste-React\node_modules\css-select\node_modules\domutils\lib\manipulation.d.ts133486852166646229 0
 71C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\transformer-html133486852077815324 1
-60C:\Users\hp\Desktop\Namaste-React\dist\index.7826abd7.js.map133487610349831895 0
+60C:\Users\hp\Desktop\Namaste-React\dist\index.7826abd7.js.map133489177197176532 0
 93C:\Users\hp\Desktop\Namaste-React\node_modules\@babel\highlight\node_modules\has-flag\license133486852065683767 0
 105C:\Users\hp\Desktop\Namaste-React\node_modules\css-select\node_modules\domutils\lib\manipulation.d.ts.map133486852161923514 0
 99C:\Users\hp\Desktop\Namaste-React\node_modules\css-select\node_modules\domutils\lib\manipulation.js133486852155657178 0
@@ -4082,6 +4085,7 @@
 93C:\Users\hp\Desktop\Namaste-React\node_modules\caniuse-lite\data\features\beforeafterprint.js133486852112988605 0
 83C:\Users\hp\Desktop\Namaste-React\node_modules\caniuse-lite\data\features\bigint.js133486852115100444 0
 97C:\Users\hp\Desktop\Namaste-React\node_modules\@swc\helpers\esm\_class_apply_descriptor_update.js133486852138572877 0
+60C:\Users\hp\Desktop\Namaste-React\dist\index.5e2e72f2.js.map133489185777644048 0
 88C:\Users\hp\Desktop\Namaste-React\node_modules\caniuse-lite\data\features\blobbuilder.js133486852116376661 0
 96C:\Users\hp\Desktop\Namaste-React\node_modules\@swc\helpers\_\_class_name_tdz_error\package.json133486852160199589 0
 85C:\Users\hp\Desktop\Namaste-React\node_modules\caniuse-lite\data\features\bloburls.js133486852117466375 0
@@ -4233,6 +4237,7 @@
 87C:\Users\hp\Desktop\Namaste-React\node_modules\caniuse-lite\data\features\es6-module.js133486852174111207 0
 91C:\Users\hp\Desktop\Namaste-React\node_modules\caniuse-lite\data\features\feature-policy.js133486852174898069 0
 82C:\Users\hp\Desktop\Namaste-React\node_modules\caniuse-lite\data\features\fetch.js133486852175057641 0
+60C:\Users\hp\Desktop\Namaste-React\dist\index.20d53baf.js.map133489185777644048 0
 94C:\Users\hp\Desktop\Namaste-React\node_modules\caniuse-lite\data\features\fieldset-disabled.js133486852175142444 0
 88C:\Users\hp\Desktop\Namaste-React\node_modules\caniuse-lite\data\features\flexbox-gap.js133486852175546544 0
 84C:\Users\hp\Desktop\Namaste-React\node_modules\caniuse-lite\data\features\flexbox.js133486852175596403 0
@@ -4581,7 +4586,7 @@
 110C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\utils\names.js133486852133755755 0
 86C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\packager-css\src\CSSPackager.js133486852067766657 0
 87C:\Users\hp\Desktop\Namaste-React\node_modules\@swc\helpers\_\_export_star\package.json133486852167148099 0
-49C:\Users\hp\Desktop\Namaste-React\dist\index.html133487610347722652 0
+49C:\Users\hp\Desktop\Namaste-React\dist\index.html133489185777019205 0
 87C:\Users\hp\Desktop\Namaste-React\node_modules\@swc\helpers\src\_async_to_generator.mjs133486852176001583 0
 81C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\package-manager\src\Npm.js133486852096877137 0
 83C:\Users\hp\Desktop\Namaste-React\node_modules\@swc\helpers\_\_dispose\package.json133486852167108217 0
@@ -4641,6 +4646,7 @@
 98C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\rust\parcel-node-bindings.darwin-arm64.node133486852169306798 0
 86C:\Users\hp\Desktop\Namaste-React\node_modules\@swc\helpers\src\_non_iterable_rest.mjs133486852178970505 0
 88C:\Users\hp\Desktop\Namaste-React\node_modules\@swc\helpers\src\_non_iterable_spread.mjs133486852179001069 0
+56C:\Users\hp\Desktop\Namaste-React\dist\index.20d53baf.js133489185777175404 0
 95C:\Users\hp\Desktop\Namaste-React\node_modules\@swc\helpers\src\_object_destructuring_empty.mjs133486852179001069 0
 89C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\workers\src\core-worker.browser.js133486852082015473 0
 103C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\replace133486852110318707 1
@@ -4772,7 +4778,6 @@
 57C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\fs133486852092091450 1
 96C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\optimizer-svgo\node_modules\svgo\bin\svgo133486852064432367 0
 61C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\logger133486852073846566 1
-75C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\workers\lib\child.js133486852075151219 0
 68C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\markdown-ansi133486852073607216 1
 68C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\optimizer-css133486852069883557 1
 73C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\optimizer-htmlnano133486852074839437 1
@@ -4813,6 +4818,7 @@
 76C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\workers\src\Worker.js133486852108375126 0
 82C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\workers\src\web\WebChild.js133486852106515973 0
 73C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\workers\lib\bus.js133486852070562029 0
+75C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\workers\lib\child.js133486852075151219 0
 89C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\workers\lib\core-worker.browser.js133486852081411344 0
 81C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\workers\lib\core-worker.js133486852082755902 0
 78C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\workers\lib\cpuCount.js133486852085720256 0
@@ -5205,8 +5211,6 @@
 92C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\package-manager\src\installPackage.js133486852093201388 0
 96C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\package-manager\src\NodePackageManager.js133486852095436535 0
 96C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\package-manager\src\promiseFromProcess.js133486852098220838 0
-119C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\Function.js133486852109899823 0
-83C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\package-manager\src\types.js133486852098769547 0
 83C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\package-manager\src\utils.js133486852099201203 0
 82C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\package-manager\src\Yarn.js133486852101356560 0
 76C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\optimizer-swc\LICENSE133486852061883635 0
@@ -5857,6 +5861,7 @@
 80C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\core\lib\public\Config.js133486852110839552 0
 92C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\core\lib\public\MutableBundleGraph.js133486852135929935 0
 81C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\core\lib\public\Symbols.js133486852146872777 0
+63C:\Users\hp\Desktop\Namaste-React\Assignments\Assignments_03.md133489161672562755 0
 80C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\config-default\index.json133486852069911405 0
 77C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\config-default\LICENSE133486852064322677 0
 74C:\Users\hp\Desktop\Namaste-React\node_modules\@parcel\config-default\test133486852065743601 1
@@ -5967,7 +5972,10 @@
 74C:\Users\hp\Desktop\Namaste-React\node_modules\.bin\update-browserslist-db133486852530139335 0
 78C:\Users\hp\Desktop\Namaste-React\node_modules\.bin\update-browserslist-db.cmd133486852530139335 0
 78C:\Users\hp\Desktop\Namaste-React\node_modules\.bin\update-browserslist-db.ps1133486852530129356 0
-57C:\Users\hp\Desktop\Namaste-React\dist\index.9e4c6fd2.css133487610347772527 0
+57C:\Users\hp\Desktop\Namaste-React\dist\index.4a8d167b.css133489185777175404 0
+61C:\Users\hp\Desktop\Namaste-React\dist\index.4a8d167b.css.map133489185777644048 0
+56C:\Users\hp\Desktop\Namaste-React\dist\index.5e2e72f2.js133489185777175404 0
+57C:\Users\hp\Desktop\Namaste-React\dist\index.9e4c6fd2.css133489177195365874 0
 63C:\Users\hp\Desktop\Namaste-React\Assignments\Assignments_01.md133482922100433543 0
-63C:\Users\hp\Desktop\Namaste-React\Assignments\Assignments_02.md133487373082280216 0
+63C:\Users\hp\Desktop\Namaste-React\Assignments\Assignments_02.md133487618206366790 0
 70C:\Users\hp\Desktop\Namaste-React\Assignments\images\caret-tilde-2.PNG133484839690259586 0
