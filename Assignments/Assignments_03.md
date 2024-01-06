@@ -4,9 +4,9 @@
 - Benefits of JSX               ✅ (assignment)
 - Behind the Scenes of JSX      ✅ (notes)   
 - Babel & parcel role in JSX    ✅ (notes)  
-- React.createElement vs JSX     
+- React.createElement vs JSX    ✅ (notes)      
 - Components
-- Functional Components
+- Functional Components         ✅ (assignment) 
     - Composing Components
 
 
@@ -76,6 +76,141 @@ some key points about polyfills:
 
 ### Q3. What is a Babel?
 ans in notes
+
+---
+
+## 🌺🌺 Date:- 06/Jan/24 (Saturday)   Episode #03 continues...
+### Q4. What is Functional Component in React?
+- This is a new way of writing code, it's just a Normal `JavaScript Function` that's `returns some piece of JSX` or a `react element` or a `composition of react element` or a `component in itself`. Name of Functional component `starts with Capital letter`.
+  ```
+  // Function Componenet
+  const HeaderComponent = () => {
+    return <h1>Hello Ravie Functional Componenet</h1>
+  }
+  ```
+  ```
+  // when our code goes in multiple line then we have to wrap in parenthesis ()
+  const HeaderComponent = () => {
+    return (
+      <div>
+        <h1>Hello Ravie Functional Componenet</h1>
+        <h2>This is a h2 tag</h2>
+      </div>
+    );
+  };
+
+  root.render(<HeaderComponent/>)
+  ```
+- How to **render** Functional Componenet? 
+  - see above 
+  - rendered using </>   `root.render(<HeaderComponent/>)`
+
+---
+
+### Q5. Difference b/w React Element & React Componenet?
+- The only difference between react element & react component.
+  ```
+  // functional component
+  const HeaderComponent = () =>  (
+      <div>
+        <h1>Hello Ravie Functional Componenet</h1>
+        <h2>This is a h2 tag</h2>
+      </div>
+  );
+
+  // react element  [just remove  () => & enjoy as element 😊]
+  const heading = (
+      <div>
+        <h1>Hello World</h1>
+        <h2>This is a h2 tag</h2>
+      </div>
+  );
+  ```
+  Hence, 
+  - to **render React Element**
+    - `root.render(heading)`
+  - to **render React Functional Component** (use of angular bracket with closing slash)
+    - `root.render(<HeaderComponent/>)`
+
+- **React Element** (just JS variable) `returns a object`.
+- React Functional component (just a JS function) & it `returns a JSX.`
+
+### Conclusion :-
+1. If it is a element => use curly braces => { heading }
+2. If it is a Func Comp => use curly braces & then call it => { `Title()` }  or <br>
+   use of angular bracket `<Title/>`
+3. we can do any JavaScript operation under curly braces.
+
+---
+
+#### How to insert one Functional Component inside aanother Functional Component?
+- write Functional component inside `</>` inside functional component or <br>
+- Since it is a JavaScript function only. Just **call it inside curly braces**.  { `Title()` }
+
+  ```
+  const Title = () => (
+    <h1 id="title" key="h11">
+      this is a Functional Component
+    </h1>
+  );
+
+  const HeaderComponent6 = function() {
+    return (
+    <div>
+      <Title/>
+      {Title()}
+      <h1>function component</h1>
+      <h2>this is h2 tag</h2>
+    </div>
+    )
+  }
+
+  root.render(<HeaderComponent6/>)
+  ```
+
+---
+
+### Q6. What is component composition in React?
+Simply when we `write a Function component outside` & `insert this to another Function component by using < />`. This is called Component Composition. Just a fancy term aur kuch bhi nahi h. 🤣
+In Simple language (ek component ko dusre component k ander ghusana.)
+
+---
+
+### Q7. Is the component Hoisted? 🤣
+Yes, It behave the same way as Functions. We just call it as Functional Component. But it is a Function at the end of the day. So, it behaves exatly as the JavaScript Function.
+
+---
+
+### Q8. What is the difference between Pollyfill & Babel ?
+- Babel is a compiler which creates pollyfill for us. (Babel takes new piece of code & split out a code by doing something out of it. & that old piece of code is Pollyfill)
+- Pollyfill is that old piece of code & it is replacement for old piece of code.
+
+---
+
+### In this Foundation Class I have learnt:
+* Babel
+* Pollyfill
+* exact meaning of "last 10 chrome versions" in browserslist
+* parcel tree shaking
+* Story behind command npm run start ?
+* How we build the the script, write the script. created build in scripts.
+* What is .gitignore & how to use it (using command git init)
+* How we can install a plugin & package into our system & configure it.
+* How to remove console.log from dist js file ?
+* What is JSX. At the end of day JSX uses React.createElement() behind the scenes. & React.createEelement gives us an Object.
+* How does react.createElement() work ?
+* Is JSX is html inside JavaScript ?
+* How does JSX executes code in the browser ?
+* Advantages of JSX
+* How many package-lock.json our code has ?
+* Functional Component
+* How to render Functional Componenet
+* Understand the difference between react element & react component.
+* How to use my react element inside functional componenet ?
+* How will we insert one functional componenet inside a functional componenet ?
+* Can we write any JavaScript code inside a functional component ?
+* JSX Sanitisation
+* component composition in React 
 
 ---
 

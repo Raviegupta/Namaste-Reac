@@ -242,13 +242,18 @@ earlier we used to write like this
 import { createElement } from "react";
 import ReactDOM from "react-dom/client";
 
-const heading = createElement("h1", {key: "h1", }, "Ravie Enterprises");
+// const heading = createElement("h1", {key: "h1", }, "Ravie Enterprises");
 
-const ul = createElement("ul", {key: "ul", }, [
-  createElement("li", {key: "first",}, "About us"), 
-  createElement("li", {key: "second",}, "Products"), 
-  createElement("li", {key: "third",}, "Offers") 
-]);
+// const ul = createElement("ul", {key: "ul", }, [
+//   createElement("li", {key: "first",}, "About us"), 
+//   createElement("li", {key: "second",}, "Products"), 
+//   createElement("li", {key: "third",}, "Offers") 
+// ]);
+
+const li1 = React.createElement("li", {key: "first",}, "About us");
+const li2 = React.createElement("li", {key: "second",}, "Products");
+const li3 = React.createElement("li", {key: "third",}, "Offers");
+const ul = React.createElement("ul", {key: "ul", }, [li1, li2, li3]);
 
 const container = createElement("div", {}, [heading, ul])
 
@@ -317,3 +322,40 @@ ex:-
 
 ---
 
+## 🌺🌺 Date:- 06/Jan/24 (Saturday)   Episode #03 continues...
+### What does this warning message indicates?
+`Warning: Each child in a list should have a unique “key” prop.`
+- This indicates us that we need to give each array item a `key` a **string or a number** that `uniquely identifies` it among other items in that array:
+ex:-  `<li key={person.id}>...</li>` 
+- It is important bcoz our array items can move (e.g. due to sorting), get inserted, or get deleted.
+- A well-chosen `key` helps React infer what exactly has happened, and make the `correct updates to the DOM tree`.
+
+Tip:- Rather than generating keys on the fly, we should include them in our data:
+ex:-
+```
+export const people = [{
+  id: 0, // Used in JSX as a key
+  name: 'Creola Katherine Johnson',
+  profession: 'mathematician',
+  accomplishment: 'spaceflight calculations',
+  imageId: 'MK3eW3A'
+}, {
+  id: 1, // Used in JSX as a key
+  name: 'Mario José Molina-Pasquel Henríquez',
+  profession: 'chemist',
+  accomplishment: 'discovery of Arctic ozone hole',
+  imageId: 'mynHUSa'
+}, {
+  id: 2, // Used in JSX as a key
+  name: 'Mohammad Abdus Salam',
+  profession: 'physicist',
+  accomplishment: 'electromagnetism theory',
+  imageId: 'bE7W1ji'
+}];
+```
+---
+
+### Q. what do you mean by JSX Sanitisation?
+JSX helps in keeping our data safe. (No XSS attack inside JSX code)
+- Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious scripts are injected into benign(सौम्य) and trusted websites.
+- Always whenever we are giving JS inside curly braces inside JSX. it sanitises it (does sanitisation automatically). => {JS code Sanitisation}
