@@ -14,7 +14,7 @@
 - What is JSX?                   ✅ (assignment)
 - Superpowers of JSX.            ✅ (assignment)
 - Role of `type` attribute in script tag? What options can I use there?
-- {TitleComponent} vs `{<TitleComponent/>}` vs `{<TitleComponent></TitleComponent>}`
+- {TitleComponent} vs `{<TitleComponent/>}` vs `{<TitleComponent></TitleComponent>}`  ✅ (assignment)
 
 ## Coding Assignment
 - Create a Nested header Element using React.createElement
@@ -131,6 +131,8 @@ ans in notes
     - `root.render(heading)`
   - to **render React Functional Component** (use of angular bracket with closing slash)
     - `root.render(<HeaderComponent/>)`
+    - `root.render(HeaderComponent())`
+    - `root.render(<HeadingComponent></HeadingComponent>)`
 
 - **React Element** (just JS variable) `returns a object`.
 - React Functional component (just a JS function) & it `returns a JSX.`
