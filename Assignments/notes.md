@@ -359,3 +359,48 @@ export const people = [{
 JSX helps in keeping our data safe. (No XSS attack inside JSX code)
 - Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious scripts are injected into benign(सौम्य) and trusted websites.
 - Always whenever we are giving JS inside curly braces inside JSX. it sanitises it (does sanitisation automatically). => {JS code Sanitisation}
+
+
+
+---
+---
+
+## 🌺🌺 Date:- 26/Jan/24 (Friday)   Extra Questions (old collection)
+### Q. What is render ?
+- First time when a page is painted on our viewport than this is known as render.
+- Render is the technique that can redirect a page with the help of function `render()`
+- The render function is crucial for defining what should be displayed in the UI based on the component's current state and props.
+
+
+### Q2. What is SSR and CSR ?
+- The main difference between SSR & CSR is **where the page is rendered**.
+- **SSR** renders the page on the server-side and **CSR** renders the page on the client-side.
+- SSR :- Server Side Rendering. Initial HTML of a web page is generated on the server and sent to the client (browser) as a fully-rendered page. <br>
+  Benefits of SSR
+  - Faster initial page load
+  - SEO-friendly, handling `SEO` is quiet easy.
+
+- CSR :- Client-Side Rendering is a technique where the initial HTML of a web page is minimal, and most of the page's content and structure are generated on the client side using JavaScript Routing.
+- The client-side dynamically manages the routing without refreshing the page each time the client requests another route.
+
+#### JavaScript SSR Frameworks: Next.JS, Nuxt.JS
+#### JavaScript CSR Frameworks: VanillaJS, ReactJS, VueJS
+
+
+### Q. Folder Structure of React ?     
+- React Entry point is index.html inside public folder.
+
+
+### Q. Difference between React and React Native ?
+- Short answer is that react-native builds mobile apps for iOS, Android, and Windows Mobile that we can compile and put in the app stores for users to install. 
+- Reactjs is for building web apps for use in a web browser. 
+- Both use reusable components, but the syntax we use to render elements in the components (using JSX) is different.
+
+  | React   |                   React Native |
+  |---|---| 
+  | Library |                   Framework |
+  | Web applications |          Mobile applications |
+  | Virtual DOM |               Native API |
+  | animation CSS |             animated API |
+  | HTML Tags |                 Can't use HTML Tags |
+  |CSS Styling |                JS stylesheet for styling |
